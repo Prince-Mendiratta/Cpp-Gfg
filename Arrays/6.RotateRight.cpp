@@ -25,6 +25,8 @@ void rotateRight1(int *A, int arr_size){
 //////////////////////////////////
 //////      APPROACH 2      //////
 //////////////////////////////////
+
+// Swap current and last value of array
 void rotateRight2(int *nums, int arr_size){
   int i = 0, j = arr_size - 1;
   while (i != j) {
