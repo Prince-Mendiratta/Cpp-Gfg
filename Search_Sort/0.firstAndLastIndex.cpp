@@ -7,6 +7,7 @@ using namespace std;
 //////////////////////////////////
 //////      APPROACH 1      //////
 //////////////////////////////////
+// Time Complexity - O(n)
 vector<int> find(int arr[], int n , int x )
 {
     // code here
